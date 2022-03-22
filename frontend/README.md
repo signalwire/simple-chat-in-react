@@ -1,0 +1,1 @@
+This is a demo Chat application built with SignalWire Chat API and React.
