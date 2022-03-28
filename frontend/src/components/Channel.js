@@ -19,6 +19,8 @@ function Channel({ selectedChannel, chatClient, channels }) {
             content
         });
         setMessage("");
+        scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+
     };
 
     const keyPress = (ev) => {
